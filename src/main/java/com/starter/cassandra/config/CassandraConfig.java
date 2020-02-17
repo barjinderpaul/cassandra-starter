@@ -17,7 +17,7 @@ public class CassandraConfig extends AbstractCassandraConfiguration {
     @Value("${spring.data.cassandra.port:9042}")
     private int port;
 
-    @Value("${spring.data.cassandra.keyspace:users}")
+    @Value("${spring.data.cassandra.keyspace:profile}")
     private String keySpace;
 
     @Value("${spring.data.cassandra.username}")
