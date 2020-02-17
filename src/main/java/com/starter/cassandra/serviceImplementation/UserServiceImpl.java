@@ -4,9 +4,11 @@ import com.starter.cassandra.profile.User;
 import com.starter.cassandra.repository.UserRepository;
 import com.starter.cassandra.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class UserServiceImpl implements UserService {
     @Autowired
     UserRepository userRepository;
